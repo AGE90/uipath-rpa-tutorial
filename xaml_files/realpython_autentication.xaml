@@ -5,7 +5,7 @@
   <this:realpython_autentication.in_boser>
     <InArgument x:TypeArguments="ui:Browser" />
   </this:realpython_autentication.in_boser>
-  <sap:VirtualizedContainerService.HintSize>529.6,1524</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>747.2,1524</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="33">
@@ -122,7 +122,7 @@
       </Variable>
       <Variable x:TypeArguments="x:String" Name="pw">
         <Variable.Default>
-          <Literal x:TypeArguments="x:String">12345</Literal>
+          <Literal x:TypeArguments="x:String">pw_fulano</Literal>
         </Variable.Default>
       </Variable>
       <Variable x:TypeArguments="x:Boolean" Name="signed_in" />
